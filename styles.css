@@ -1,0 +1,119 @@
+body
+{background: linear-gradient(276deg, #e94d0d, #e94d0d, #e97d0d, #9ce90d, #77ef44, #1ce08f, #1cdbe0, #1c8de0, #8f5ae0, #c321e4, #e421a6);
+background-size: 2200% 2200%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+
+   
+
+}
+
+p{
+    position: fixed; bottom: 0; width:100%; text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+h1{position: fixed;
+ 
+   width: 100%; 
+   text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 3em;
+    font-family: 'Bree Serif', serif;
+}
+.c2{
+    box-sizing: border-box;
+    width: 50%;
+    float:right;
+    padding-left:150px;
+    position: relative; 
+    padding-top:250px;
+    font-size:20px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+
+}
+.c1{
+    width: 40%;
+    float:left;
+    padding-left:150px;
+    position: fixed;
+    left:0;
+    padding-top:250px;
+    font-size:25px;
+    font-family: 'Pacifico', cursive;
+    word-spacing: 0.2em;
+    
+
+}
+
+#icon2{
+    list-style:none;
+    
+        background: url(images/Resume.png) left center no-repeat; 
+        padding-left: 20px; 
+    }
+
+#icon3
+{
+    list-style:none;
+    background: url(images/Hobbies.png) left center no-repeat; 
+    padding-left: 20px; }
+#icon4
+{
+    list-style:none;
+    background: url(images/contacts.png) left center no-repeat; 
+    padding-left: 20px; ;
+}
+#icon5
+{
+    list-style:none;
+    background: url(images/message.png) left center no-repeat; 
+    padding-left: 20px; ;
+}
+a:link {
+    text-decoration: none;
+  }
+  .c4{
+   padding:250px;
+   font-size:30px;
+  
+  }
+form{
+    display:block;
+}
+.button{
+    background-color: #8f5ae0;
+    color:black;
+    border:none;
+
+}
+.button:hover{
+background:red;
+color:white;
+padding:150px;
+}
+.button[type="submit"]{padding:20px;}
+ 
